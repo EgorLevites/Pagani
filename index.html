@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagani Cars for Sale</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS styles */
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Set minimum height to full viewport height */
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Fallback color if the image is not available */
+            background-image: url('https://strapiadmin.f1rstmotors.com/uploads/pagani_25th_anniversary_8fe7e4df6c.jpg?w=3840&q=75');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            position: relative; /* Make sure the container is positioned relative */
+        }
+
+        /* Content container */
+        .content {
+            flex: 1; /* Take remaining vertical space */
+        }
+
+        /* Footer */
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+        }
+
+        /* Custom button style */
+        .btn-primary {
+            background-color: black; /* Change button background color to black */
+            border-color: black; /* Change button border color to black */
+        }
+
+        /* Change button text color to white */
+        .btn-primary:hover,
+        .btn-primary:focus {
+            color: white;
+        }
+
+        .content container mt-5 {
+            background-color: gray;
+        }
+
+        /* Styling for "Pagani Cars for Sale" heading */
+        h2.pagani-heading {
+            color: white;
+            border: 2px solid black;
+            padding: 10px;
+            display: inline-block;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="https://1000logos.net/wp-content/uploads/2020/04/Pagani-Logo-1992.png" alt="Pagani Cars"
+                style="height: 30px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///Users/egorlevites/Desktop/JB/HW2/history.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///Users/egorlevites/Desktop/JB/HW2/contacts.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="content container mt-5" id="models">
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://www.autocentrum.pl/ac-file/article/5dcd3f35583a0f4d752cc0fc.jpg"
+                        class="card-img-top" alt="Pagani Zonda">
+                    <div class="card-body">
+                        <h5 class="card-title">Pagani Zonda</h5>
+                        <p class="card-text">Explore our collection of Pagani Zonda models. Experience the iconic design
+                            and exhilarating performance.</p>
+                        <a href="file:///Users/egorlevites/Desktop/JB/HW2/zonda.html" class="btn btn-primary btn-block">View Zonda Listings</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/utopia-03-copy-1662993645.jpg"
+                        class="card-img-top" alt="Pagani Utopia">
+                    <div class="card-body">
+                        <h5 class="card-title">Pagani Utopia</h5>
+                        <p class="card-text">Browse our selection of Pagani Utopia models. Experience the future of hypercar engineering and design.</p>
+                        <a href="file:///Users/egorlevites/Desktop/JB/HW2/utopia.html" class="btn btn-primary btn-block">View Utopia Listings</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCOtBHZv8cUSSAfjbO6w5EBxCK_Zt16qI4MA&s"
+                        class="card-img-top" alt="Pagani Huayra">
+                    <div class="card-body">
+                        <h5 class="card-title">Pagani Huayra</h5>
+                        <p class="card-text">Discover our available Pagani Huayra models. Find the perfect combination
+                            of power, performance, and luxury.</p>
+                        <a href="file:///Users/egorlevites/Desktop/JB/HW2/huayra.html" class="btn btn-primary btn-block">View Huayra Listings</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pagani Cars</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+
+
